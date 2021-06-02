@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Other__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Other */ \"./src/Other.js\");\n\n\nconsole.warn((0,_Other__WEBPACK_IMPORTED_MODULE_0__.Other)());\n\n//# sourceURL=webpack://webpack-example/./src/App.js?");
+
+/***/ }),
+
 /***/ "./src/Other.js":
 /*!**********************!*\
   !*** ./src/Other.js ***!
@@ -17,16 +27,6 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Other\": () => (/* binding */ Other)\n/* harmony export */ });\nfunction Other() {\n    return \"This is from Other function\"\n}\n\n//# sourceURL=webpack://webpack-example/./src/Other.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Other__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Other */ \"./src/Other.js\");\n\n\nconsole.warn((0,_Other__WEBPACK_IMPORTED_MODULE_0__.Other)());\n\n//# sourceURL=webpack://webpack-example/./src/index.js?");
 
 /***/ })
 
@@ -90,7 +90,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Oth
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/App.js");
 /******/ 	
 /******/ })()
 ;
